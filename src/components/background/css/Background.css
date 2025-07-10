@@ -1,0 +1,13 @@
+.background-layer {
+  position: absolute;
+  top: 60px;
+  left: 45px;
+  right: 0;
+  bottom: 0;
+  background-color: #E8E8E8; 
+  z-index: -1;
+}
+
+body.dark-mode .background-layer {
+  background-color: #1e1e1e;
+}
