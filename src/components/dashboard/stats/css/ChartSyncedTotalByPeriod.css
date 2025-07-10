@@ -1,0 +1,49 @@
+.chart-synced-total-by-period-card {
+  width: 99%;
+  background: #efefef;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.chart-synced-total-by-period-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.chart-synced-total-by-period-group {
+  height: auto;
+  width: 100%;
+}
+
+
+.chart-synced-total-by-period-title {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #263238;
+}
+
+
+.chart-subtitle {
+  font-size: 15px;
+  font-weight: 1000;
+  margin-left: 20px;
+  margin-top: -10px;
+  margin-bottom: -20px;
+  color: #444;
+}
+
+body.dark-mode .chart-synced-total-by-period-card {
+  background: #3a3a3a;
+}
+
+body.dark-mode .chart-synced-total-by-period-title {
+  color: #ffffff;
+}
+
+body.dark-mode .chart-subtitle {
+  color: #cccccc;
+}

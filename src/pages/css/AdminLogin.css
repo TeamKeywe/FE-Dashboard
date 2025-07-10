@@ -1,0 +1,31 @@
+.admin-login-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-image: url('../../assets/images/Login-Background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; 
+}
+
+.admin-login-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(200, 200, 200, 0.4);
+  z-index: 0;
+}
+
+.admin-login-box {
+  position: relative;
+  z-index: 1;
+}
+
+body.dark-mode .admin-login-page::before {
+  background-color: rgba(30, 30, 30, 0.8);
+}
